@@ -3,6 +3,3 @@ project(beginning-cpp17-exercises VERSION 0.1.0 LANGUAGES C CXX)
 
 add_executable(Ch01 Ex1_01.cpp)
 
-set(CPACK_PROJECT_NAME ${PROJECT_NAME})
-set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
-include(CPack)
